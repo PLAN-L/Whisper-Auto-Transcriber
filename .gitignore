@@ -1,0 +1,54 @@
+# Python Virtual Environment & Cache
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Whisper Model Caches
+huggingface/
+.cache/
+assets/
+
+# Audio Input Files (Keep user recordings private)
+recordings/*
+!recordings/.gitkeep
+
+# User-specific Runtime & Output Files
+transcribe.py
+_wizard.py
+_wizard_tmp.py
+*.tmp
+.use_system_py
+
+# Transcription Output Results (Keep generated transcripts/subtitles private)
+*.txt
+*.srt
+!README.md
+!requirements.txt
+!LICENSE
+
+# Log Files
+*.log
+transcription_log.txt
+전사로그.txt
+文字起こしログ.txt
+转录日志.txt
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
