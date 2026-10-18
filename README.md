@@ -7,8 +7,6 @@
 
 A lightweight, zero-configuration local voice transcription and subtitle generator powered by **faster-whisper** (CTranslate2) & **OpenAI Whisper**. Runs 100% locally on your computer with complete privacy, unlimited length, and automated hardware optimization.
 
-[한국어 설명은 아래를 참고하세요.](#-한국어-안내-korean)
-
 ---
 
 ## ✨ Features
@@ -72,27 +70,3 @@ A lightweight, zero-configuration local voice transcription and subtitle generat
 | **CPU Only** | Cores 6+ & RAM 8 GB+ | `CPU Mode` | **`[3] Small`** | Modern Intel Core i5/i7, AMD Ryzen |
 | **CPU Only** | Cores 4 & RAM 6 GB+ | `CPU Mode` | **`[2] Base`** | Standard office quad-core laptops |
 | **CPU Only** | Cores 2 or RAM < 6 GB | `CPU Mode` | **`[1] Tiny`** | Low-spec dual-core PCs |
-
----
-
-# 🇰🇷 한국어 안내 (Korean)
-
-고성능 음성 인식 엔진인 **faster-whisper**를 기반으로 작동하는 **원클릭 음성 전사 및 자막(.srt/.txt) 자동 생성기**입니다.
-
-### 📌 주요 특징
-- **원클릭 실행**: 윈도우는 `start.bat`, 맥은 `start_mac.command`, 리눅스는 `start_linux.sh` 더블클릭으로 모든 과정 자동 진행.
-- **사양 자동 감지**: 내 컴퓨터 사양(CPU/RAM/GPU VRAM)을 실시간 분석하여 가장 알맞은 모델에 `(추천)` 표시.
-- **자막(.srt) 및 텍스트(.txt) 동시 지원**: 영상 제작용 타임스탬프 자막 파일과 회의록/강의 필기용 텍스트 파일 지원.
-- **완전한 무료 & 개인정보 보호**: 외부 서버로 음성이 전송되지 않으며, 컴퓨터 로컬에서 100% 무제한 처리됩니다.
-
-### 🚀 사용 순서
-1. Python 3.9 이상 설치 (윈도우 설치 시 `Add Python to PATH` 체크 필수)
-2. 내 운영체제에 맞는 실행 파일(`start.bat` / `start_mac.command` / `start_linux.sh`) 실행
-3. 사양 맞춤 마법사 안내에 따라 엔터를 눌러 기본 설정 완료
-4. 생성된 `recordings` 폴더 안에 음성 파일(`.mp3`, `.m4a`, `.wav` 등)을 넣고 실행 파일을 다시 더블클릭하면 끝!
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
